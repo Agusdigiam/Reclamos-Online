@@ -30,7 +30,7 @@ body {
   padding: 300px;
 }
 .main_h1_index {
-  font-size: 45px;
+  font-size: 65px;
   color: black;
 }
 .div_button {
@@ -169,5 +169,14 @@ p {
   outline: 0;
   border: 1px solid #97d848;
 }
+.content_find {
+  padding-top: 300px;
+  text-align: center;
+}
 
-/*Enero del 2023 Agustin Di Giambatista */
+.content_find-title {
+  font-weight: lighter;
+  color: white;
+  font-size: 35px;
+}
+/*Marzo del 2023 Agustin Di Giambatista */
