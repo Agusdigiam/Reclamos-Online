@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Alvear Reclamos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+<!-- formulario de contacto en html y css -->  
+  <header class="main_header_index">
+      <h1 class="main_h1_index">Reclamos Online</h1>
+      <h2>Registra tu reclamo de manera sencilla y rapida!</h2>
+  <div class="div_button">
+      <button class="reclamo_btn_index">Registra tu reclamo<a href="#1"></a></button>
+      <button class="reclamo_btn_index">Consulta tu reclamo<a href=""></a></button>
+  </div>
+  </header>
+<div class="contact_form" id="#1">
+
+    <div class="formulario">      
+      <h1>Registra tu reclamo</h1>
+        <h3>Registra tu reclamo y en breve lo solucionaremos.</h3>
+
+          <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre y Apellido
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre y apellido">
+                </p>
+               
+                <p>
+                  <label for="Direccion o calle" class="colocar_email">Direccion o Calle
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_email" id="email" required="obligatorio" placeholder="Direccion o calle">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono Fijo o Celular
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+                
+              
+                <p>
+                  <label for="asunto" class="colocar_asunto">Tipo de Reclamo
+                    <span class="obligatorio">*</span>
+                    <select name="tipodereclamo" id="reclamo">
+                      <option value="javascript">Barrido y Limpieza</option>
+                      <option value="php">Cloacas</option>
+                      <option value="java">Residuos especiales</option>
+                      <option value="golang">Residuos domiciliarios</option>
+                      <option value="python">Calles</option>
+                      <option value="c#">Caminos vecinales</option>
+                      <option value="">Atencion al publico</option>
+                      <option value="otros">Otros *Especifique debajo.</option>
+                    </select>
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu reclamo."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar reclamo</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+</body>
+<script src="./app.js"></script>
+</html>

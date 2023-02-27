@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 97, 121, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+body {
+  height: 100%;
+  font-family: "Noto Sans", sans-serif;
+}
+.main_header_index {
+  text-align: center;
+  color: black;
+  background-image: url(./assets/background_main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 3);
+  width: 100%;
+  height: 100vh;
+  padding: 300px;
+}
+.main_h1_index {
+  font-size: 45px;
+  color: black;
+}
+.div_button {
+  text-align: center;
+  padding-top: 50px;
+}
+.reclamo_btn_index {
+  align-items: center;
+  text-align: center;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: orangered;
+  border-color: orangered;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 20px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: skyblue;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: skyblue;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  font-weight: bold;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: orangered;
+  border-color: orangered;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+  background-color: green;
+  border-color: green;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: skyblue;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: blue;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+#reclamo {
+  padding-bottom: 11px;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+/*Enero del 2023 Agustin Di Giambatista */
